@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-url= "https://drive.google.com/uc?id=1_FxiFJ5WbN1qZp_lietBr6-KGX8-UVlm"
-df = pd.read_csv(url)
+df = pd.read_csv("vehicles_us_small.csv")
 
 st.write("Columnas del dataset:")
 st.write(df.columns)
