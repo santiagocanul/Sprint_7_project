@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("vehicles_us.csv")
+url= "https://drive.google.com/uc?id=1_FxiFJ5WbN1qZp_lietBr6-KGX8-UVlm"
+df = pd.read_csv(url)
 
 df = df[(df['price'] >= 500) & (df['price'] <= 100000)]
 df = df.dropna(subset=['year', 'price'])
