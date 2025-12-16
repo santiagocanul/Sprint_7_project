@@ -36,10 +36,3 @@ Cómo ejecutar la aplicación
     
     Después de esto, la aplicación se abre en el navegador.
 
-Dataset
-
-    El proyecto utiliza el archivo `vehicles_us.csv`, el cual no se incluye en el repositorio debido a su tamaño.
-
-    Para poder ejecutar la aplicación correctamente, la aplicación carga los datos desde una fuente externa pública.
-
-    El dataset corresponde a anuncios de autos usados en Estados Unidos.
