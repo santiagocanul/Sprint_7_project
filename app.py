@@ -4,9 +4,6 @@ import plotly.express as px
 
 df = pd.read_csv("vehicles_us_small.csv")
 
-st.write("Columnas del dataset:")
-st.write(df.columns)
-st.write(df.head())
 
 df = df[(df['price'] >= 500) & (df['price'] <= 100000)]
 df = df.dropna(subset=['year', 'price'])
