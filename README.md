@@ -34,5 +34,10 @@ Cómo ejecutar la aplicación
     4.	Ejecutar la aplicación:
         - streamlit run app.py
     
-    Después de esto, la aplicación se abre en el navegador.
+Después de esto, la aplicación se abre en el navegador.
 
+## Aplicación web
+
+La aplicación web desarrollada con Streamlit puede consultarse en el siguiente enlace:
+
+https://sprint-7-streamlit.onrender.com
